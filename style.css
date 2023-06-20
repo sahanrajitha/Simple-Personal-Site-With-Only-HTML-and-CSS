@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+  margin: 0;
+  color: #cf3054;
+}
+
+h2 {
+  font-family: "Bree Serif", serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%; /* Set the desired width */
+  height: 620px; /* Set the desired height */
+  background-image: url("./assets/images/pexels-tirachard-kumtanom-733852.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-position: top;
+  background-position: center top; /* Crop the image from the top */
+}
+
+.profile-pic {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.description {
+  font-family: "Bree Serif", serif;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  width: 30%;
+  font-weight: 200px;
+  line-height: 2;
+  color: #40514e;
+  font-size: large;
+}
+
+hr {
+  border: solid #eaf6f6 2px;
+  border-bottom: none;
+  margin: 50px auto;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.skill-img {
+  float: left;
+  width: 200px;
+}
+
+.container-skill {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  width: 500px;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 2rem;
+  font-family: "Bree Serif", serif;
+}
+
+.container-skill p {
+  color: #40514e;
+}
+
+.contact {
+  font-family: "Bree Serif", serif;
+  margin-top: 100px;
+}
+
+.contact > button {
+  background-color: #f09440;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.contact > button:hover {
+  background-color: #f0b36a;
+  cursor: pointer;
+}
+
+.contact > p {
+  margin: 50px;
+  font-size: large;
+  color: #40514e;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #f0b36a;
+  padding: 15px;
+  font-family: "Bree Serif", serif;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer p {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  color: #40514e;
+}
+
+/* @media (max-width: 850px) {
+  .container-skill {
+    width: 75%;
+  }
+} */
